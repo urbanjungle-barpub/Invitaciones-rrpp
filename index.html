@@ -460,7 +460,7 @@ let musicPlaying = false;
 musicToggle.addEventListener('click', () => {
   if (musicPlaying) {
     bgMusic.pause();
-    musicToggle.textContent = '🔇';
+    musicToggle.textContent = '👉🔇';
   } else {
     bgMusic.volume = 0.5;
     bgMusic.play().catch(() => {
